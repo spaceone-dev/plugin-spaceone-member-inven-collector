@@ -1,0 +1,1 @@
+# plugin-spaceone-inven-collector
