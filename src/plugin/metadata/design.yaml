@@ -1,0 +1,37 @@
+search:
+  fields:
+    - key: "data.Member ID"
+    - name: Part
+      key: data.part
+    - name: Email
+      key: data.email
+    - name: Join Date
+      key: data.join_date
+      type: text
+table:
+  sort:
+    key: data.member_id
+    desc: false
+  fields:
+    - key: data.member_id
+      name: Member ID
+      type: text
+    - key: data.part
+      name: Part
+      type: text
+    - key: data.email
+      name: Email
+      type: text
+    - key: data.join_date
+      name: Join Date
+      type: text
+details.0:
+  name: Details
+  type: list
+  fields:
+    - key: data.member_id
+	  name: Member ID
+	  type: text
+    - key: data.part
+	  name: Part
+	  type: text
