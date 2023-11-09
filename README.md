@@ -29,6 +29,7 @@ pip3 install --pre spaceone-inventory
 3) interpreter 설정  
     Pycharm을 사용하는 경우, 해당 가상 환경을 interpreter로 설정합니다.  
 ![img.png](docs/interpreter_settings.png)
+![img.png](docs/settings_source_directory.png)
 ![img.png](docs/run_settings.png)
 
 위 순서로 진행한 후 `RUN`할 경우 `Plugin Server`가 실행됩니다.  
