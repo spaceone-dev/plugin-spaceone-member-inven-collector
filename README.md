@@ -2,7 +2,7 @@
 
 ## 소개
 `plugin-spaceone-inven-collector`는 SpaceONE의 Inventory Collector Plugin으로서  
-SpaceONE의 Design 팀의 멤버 정보를 수집하는 Collector입니다.    
+SpaceONE팀의 멤버 정보를 수집하는 Collector입니다.    
 해당 플러그인은 새로운 플러그인 프레임워크로 제작 되었습니다.
 
 ## 환경 설정과 플러그인 서버 띄우기
@@ -70,5 +70,4 @@ spacectl exec collect inventory.Collector -f test/collect.yml
 
 
 ## 참고 사항
-* metadata는 dict타입으로 정의하는 것을 yaml로 변환할 예정입니다.
 * spaceone-inventory 패키지는 pre-release 상태이기 때문에, pip install시 `--pre` 옵션을 추가해야 합니다.
