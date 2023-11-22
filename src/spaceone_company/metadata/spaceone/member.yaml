@@ -1,0 +1,23 @@
+search:
+  fields:
+    - Member ID: data.id
+    - Part: data.part
+    - Email: data.email
+    - Join Date: data.join_date
+table:
+  sort:
+    key: data.id
+    desc: false
+  fields:
+    - Member ID: data.id
+    - Part: data.part
+    - Email: data.email
+    - Join Date: data.join_date
+tabs.0:
+  name: Details
+  type: item
+  fields:
+    - Member ID: data.id
+    - Part: data.part
+    - Email: data.email
+    - Join Date: data.join_date

@@ -35,5 +35,6 @@ setup(
         'spaceone-api',
         'spaceone-inventory'
     ],
+    package_data={"spaceone_company": ["metadata/spaceone/*.yaml"]},
     zip_safe=False,
 )
